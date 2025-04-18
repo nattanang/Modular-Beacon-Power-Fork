@@ -154,7 +154,7 @@ local max_slots = 0
 for _, beacon in pairs(data.raw.beacon) do
     if is_valid_beacon(beacon) then
         local slots = beacon.module_slots
-        if slots > max_slots then max_slots = slots end
+        if slots and max_slots and slots > max_slots then max_slots = slots end
         --if beacon.distribution_effectivity < min_eff then min_eff = beacon.distribution_effectivity end
         if beacon.allowed_effects then -- TODO: allowed_effects can be a simple union instead of an array of unions
             local prod_consumption = 0
