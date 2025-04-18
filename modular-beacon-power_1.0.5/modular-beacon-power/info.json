@@ -1,9 +1,8 @@
 {
-	"name": "modular-beacon-power",
-	"version": "1.0.5",
-	"title": "Modular Beacon Power",
-	"author": "BetweenWalls",
-	"contact": "Discord: @between_walls",
+	"name": "modular-beacon-power-fork",
+	"version": "1.0.0",
+	"title": "Modular Beacon Power Fork",
+	"author": "nattanang",
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base",
@@ -13,5 +12,5 @@
 		"(?) UnlimitedProductivityFork",
 		"(?) rosnok-productivity-quality-beacon"
 	],
-	"description": "Beacons are affected by their own modules. Fully configurable settings."
+	"description": "Beacons are affected by their own modules. Fully configurable settings. Doing fork because mod author was absent"
 }
