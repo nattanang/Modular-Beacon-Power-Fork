@@ -1,0 +1,17 @@
+{
+	"name": "modular-beacon-power",
+	"version": "1.0.5",
+	"title": "Modular Beacon Power",
+	"author": "BetweenWalls",
+	"contact": "Discord: @between_walls",
+	"factorio_version": "2.0",
+	"dependencies": [
+		"base",
+		"(?) quality",
+		"(?) mini-machines",
+		"(?) micro-machines",
+		"(?) UnlimitedProductivityFork",
+		"(?) rosnok-productivity-quality-beacon"
+	],
+	"description": "Beacons are affected by their own modules. Fully configurable settings."
+}

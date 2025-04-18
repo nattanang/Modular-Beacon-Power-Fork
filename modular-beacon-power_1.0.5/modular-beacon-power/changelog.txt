@@ -1,0 +1,61 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2025.02.21
+  Changes:
+    - Added startup setting to limit the number of entities created. Now, if the game stalls due to low memory, it'll be when
+      loading a map instead of when booting up and the settings will be accessible for adjusting things. Variations are created
+      for beacons starting at those with the lowest module slots - if a beacon's variations can't fit within the entity limit,
+      it won't get any variations and will function normally.
+    - Affected beacons now use "total" for beacon_counter to ensure their variations still have diminishing returns
+    - Changed default startup settings to use both positive and negative bonuses
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2024.11.19
+  Changes:
+    - Added startup setting to show the power consumption difference from modules as a percentage in beacon descriptions
+    - Added missing event handlers for beacon scripts on space platforms
+    - Added support for custom qualities
+    - Improved support for UnlimitedProductivityFork, rosnok-productivity-quality-beacon
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2024.11.10
+  Changes:
+    - Added support for Mini Machines and Micro Machines
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024.10.27
+  Changes:
+    - Fixed beacons not being affected by more than one module in some circumstances
+    - Fixed higher-quality beacons being reverted to normal quality
+    - Fixed higher-quality modules using the stats from normal quality
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2024.10.26
+  Changes:
+    - Fixed crash involving module requests
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024.10.22
+  Changes:
+    - Initial update for Factorio 2.0
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2024.08.17
+  Changes:
+    - Changed startup setting defaults to only affect negative bonuses (efficiency modules)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2024.07.20
+  Changes:
+    - Added a startup setting to determine whether a beacon's distribution efficiency also applies to internal module effects
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2024.05.31
+  Changes:
+    - Added startup settings for positive/negative bonuses so functionality can be limited to either efficiency or speed modules
+    - Added logic to prevent extra entities from being created for modded beacons which don't function with this mod
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2024.05.30
+  Changes:
+    - Initial Release
